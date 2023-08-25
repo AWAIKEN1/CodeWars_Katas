@@ -6,12 +6,9 @@
 # The size will always be positive and will only use whole numbers.#
 
 def stringy(size):
-    # Initialize an empty string to store the result
     result = ""
 
-    # Iterate through a range from 0 to size-1
     for i in range(size):
-        # Append '1' if the index is even, otherwise append '0'
         if i % 2 == 0:
             result += '1'
         else:
