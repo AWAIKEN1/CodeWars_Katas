@@ -6,6 +6,7 @@
 # The size will always be positive and will only use whole numbers.#
 
 def stringy(size):
+
     result = ""
 
     for i in range(size):
