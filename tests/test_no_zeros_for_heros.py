@@ -16,4 +16,3 @@ def test_cases_with_only_trailing_zeros():
     assert remove_trailing_zeros(100000) == 1
     assert remove_trailing_zeros(-70000) == -7
 
-§§
