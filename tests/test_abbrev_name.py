@@ -1,4 +1,4 @@
-from abbrev_name import abbrev_name
+from src.abbrev_name import abbrev_name
 
 def test_name_to_initials():
     assert abbrev_name("Sam Harris") == "S.H"
