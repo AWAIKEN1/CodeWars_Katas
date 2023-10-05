@@ -1,4 +1,5 @@
 def duplicate_encode(word):
+
     result = ""
     char_count = {}
 
